@@ -3,10 +3,6 @@
 <h1 align="center">App Motorcyclists</h1>
 
 <div align="center">
-   Solution for a challenge.
-</div>
-
-<div align="center">
   <h3>
     <a href="https://motorcyclists.netlify.app/">
       Demo
@@ -26,6 +22,8 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
+    - [Requirements](#requirements)
+    - [Use cases](#use-cases)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
@@ -50,14 +48,14 @@
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 Mi primera aplicacion con firebase, esta aplicación cumple con los casos de uso y requisitos pedidos.
 
-####Requisitos
+#### Requirements
 - Lista que contenga tramos horarios en intervalos de 30 minutos
 - Que inicie a las 8 am y termine a las 8 pm.
 - La empresa tiene una disponibilidad de 8 motociclistas cada 30 minutos.
 - Si otros usuarios han tomado todos los recursos la fila debe ser de color rojo.
 
-####Casos de Uso
-- El usuario proda adquirir un recurso si este se encuentra disponible.
+#### Use cases
+- El usuario podra adquirir un recurso si este se encuentra disponible.
 - El usuario solo podrá agarrar 1 recursos de cada horario.
 - El usuario podrá liberar el recurso.
 
