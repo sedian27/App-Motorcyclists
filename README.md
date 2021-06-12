@@ -50,13 +50,13 @@
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 Mi primera aplicacion con firebase, esta aplicación cumple con los casos de uso y requisitos pedidos.
 
-Requisitos
+####Requisitos
 - Lista que contenga tramos horarios en intervalos de 30 minutos
 - Que inicie a las 8 am y termine a las 8 pm.
 - La empresa tiene una disponibilidad de 8 motociclistas cada 30 minutos.
 - Si otros usuarios han tomado todos los recursos la fila debe ser de color rojo.
 
-Casos de Uso
+####Casos de Uso
 - El usuario proda adquirir un recurso si este se encuentra disponible.
 - El usuario solo podrá agarrar 1 recursos de cada horario.
 - El usuario podrá liberar el recurso.
