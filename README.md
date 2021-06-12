@@ -12,12 +12,8 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/sedian27/DevChallenge-My-Team-Crew">
+    <a href="https://github.com/sedian27/App-Motorcyclists">
       Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
-      Challenge
     </a>
   </h3>
 </div>
