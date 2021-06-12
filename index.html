@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootswatch Darkly Theme -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/darkly/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>App - Recursos Motorisados</title>
+  </head>
+  <body>
+    <div class="d-flex justify-content-center text-center">
+      <table class="table table-hover table-dark">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">Hora</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Estatus</th>
+          </tr>
+        </thead>
+        <tbody id="table"></tbody>
+      </table>
+    </div>
+    <!-- Fire Base -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+    <!-- JS Code -->
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>
